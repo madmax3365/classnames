@@ -4,6 +4,15 @@
   "description": "A zero dependency helper for composing className string from provided multiple classes.",
   "main": "dist/classnames.umd.js",
   "module": "dist/classnames.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:madmax3365/classnames.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "type": "module",
   "types": "dist/classnames.d.ts",
   "author": "Gago Muradyan",
