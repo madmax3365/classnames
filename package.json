@@ -1,0 +1,28 @@
+{
+  "name": "@madmax/classnames",
+  "version": "1.0.0",
+  "description": "A zero dependency helper for composing className string from provided multiple classes.",
+  "main": "dist/classnames.umd.js",
+  "module": "dist/classnames.js",
+  "type": "module",
+  "types": "dist/classnames.d.ts",
+  "author": "Gago Muradyan",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@vitest/coverage-c8": "^0.26.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vitest": "^0.26.2"
+  }
+}
