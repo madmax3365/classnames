@@ -16,6 +16,7 @@ export default defineConfig({
             entry: "src/classnames.ts",
             name: "BidonworkComponentLibrary",
             fileName: "classnames",
+            formats: ["es", "cjs"],
         },
         sourcemap: true,
         minify: false,
